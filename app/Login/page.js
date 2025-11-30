@@ -1,4 +1,4 @@
-import Blog from "../components/blog";
+import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 export default function Login(){
     return(

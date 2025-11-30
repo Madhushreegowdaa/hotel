@@ -2,8 +2,8 @@ import Items from "./components/Items";
   import Online from "./components/Online";
 import Opening from "./components/Opening";
   import Link from "next/link";
-  import Chef from "./components/Chef";
-  import Blog from "./components/Blog";
+  import Chef from "../components/Chef";
+  import Blog from "../components/Blog";
   import Footer from "./components/Footer";
   
 export default function hotel(){

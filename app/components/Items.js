@@ -178,7 +178,7 @@ export default function Items(){
         <div className="grid md:grid-cols-3 gap-4 mt-4" >
             {
               filteredItems.map(item=>(
-               <div key={item.id} className="h-[580px] ml-1 mr-1 w-full md:w-[500px] border-2 border-gray-300 rounded-3xl ">
+               <div key={item.id} className="h-[580px]  w-full md:w-[500px] border-2 border-gray-300 rounded-3xl ">
                 <img src={item.img} className="border-2 border-gray-300 rounded-t-3xl"></img>
                 <h2 className="text-4xl mt-2.5 md:ml-1.5">{item.rating}</h2>
                 <h2 className="text-3xl mt-2.5 md:ml-1.5">{item.title}</h2>

@@ -20,13 +20,13 @@ export default function Chef(){
     }
   ]
   return(
-    <div className="relative mt-[50px] ">
+    <div className="relative  mt-[50px] ">
     <h2 className="text-xl text-amber-700 text-center font-semibold">*----MASTER CHEFS----*</h2>
     <h2 className="text-5xl text-black font-bold text-center mt-5">Meet Our Special Chefs</h2>
     <div className="md:flex md:ml-[130px] mt-[50px]">
       {
         chef.map(chef=>(
-          <div key={chef.id} className="md:ml-[70px] ml-[10px]" >
+          <div key={chef.id} className="md:ml-[70px] " >
             <img src={chef.img} className=" h-[300px]  w-[300px] rounded-full"></img>
             <div className="text-center h-[100px] w-[300px] border-2 border-gray-300 bg-amber-800 ml-3 text-white rounded-3xl  absolute bottom-[-30px] pt-3 ">
               <h2 className="text-3xl ">{chef.title}</h2>
