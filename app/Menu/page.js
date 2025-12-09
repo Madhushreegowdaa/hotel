@@ -1,4 +1,4 @@
-import Blog from "./components/Blog";
+import Blog from "../components/Blog";
 import Footer from "../components/Footer";
 export default function menu(){
   const menu =[
